@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App title='Learn React With TypeScript' />
   </React.StrictMode>,
   document.getElementById('root')
 );
