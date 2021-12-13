@@ -22,7 +22,7 @@ export default function TaskForm({newAddTask}:Props) {
         e.preventDefault();
         newAddTask(task);
         setTask(initialSate);
-        inputTitle.current?.focus();
+        inputTitle.current?.focus() ;
     }
     return (
       <div className="card card-body bg-secondary text-dark">
